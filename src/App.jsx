@@ -50,7 +50,7 @@ function App() {
         <div className='gap-3 mt-7'>
           <input type="text" onChange={handlechange} value={task} className='border-1 p-3 rounded-xl' placeholder='Enter your Task..' />
           {
-            Editid ? (<button type='button' className='bg-green-700 text-white p-3 ms-5 font-bold w-25 cursor-pointer' onClick={updateTask}>Update</button>)
+            Editid ? (<button type='button' className='bg-green-700 text-white p-3 ms-5 font-bold w-25 cursor-pointer rounded-xl' onClick={updateTask}>Update</button>)
               : (<button type='button' className='bg-linear-65 from-purple-800 to-pink-500 text-white p-3 ms-5 font-bold w-25 cursor-pointer rounded-xl' onClick={handleaddtaskdata}>Add</button>)
           }
           {
